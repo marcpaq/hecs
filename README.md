@@ -1,4 +1,4 @@
-# Emacs Cheat Sheet
+# Hyperlinked Emacs Cheat Sheet
 
 ## Survival tips
 
