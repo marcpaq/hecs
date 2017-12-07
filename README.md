@@ -9,10 +9,10 @@ fixed, compact, non-modal(-ish) dialog for status messages, command history,
 and interacting with commands.
 
 [**Mode**](https://www.gnu.org/software/emacs/manual/html_node/emacs/Modes.html#Modes)\:
-auto-adapt keyboard commands, visual appearance, and behaviour to what you're
-editing. Example: Pressing TAB at the beginning of a line in fundamental-mode
-inserts a tab character while TAB in python-mode aligns
-indentation of the statement.
+Alters editor behaviour and appearance automatically to the type of text you edit. 
+You learn one editing feature and Emacs adapts the feature to the problem. 
+Example: Pressing TAB at the beginning of a line in fundamental-mode inserts a tab 
+character while TAB in python-mode aligns indentation of the statement.
 
 [**Touch-typing**](https://en.wikipedia.org/wiki/Touch_typing): if you don't already, learn! 
 
