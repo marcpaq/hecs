@@ -64,7 +64,7 @@ character while TAB in python-mode aligns indentation of the statement.
 | - | - |
 | [Visit (aka open) a file](https://www.gnu.org/software/emacs/manual/html_node/emacs/Visiting.html#Visiting) | `C-x C-f` |
 | [Save buffer to its file.](https://www.gnu.org/software/emacs/manual/html_node/emacs/Saving.html#Saving) | `C-x C-s` |
-| Re-visit (aka revert) a file in a buffer | C-x C-f M-n RET |
+| Re-visit (aka revert) a file in a buffer | `C-x C-f M-n RET` |
 | [Save all modified buffers](https://www.gnu.org/software/emacs/manual/html_node/emacs/Save-Commands.html#Save-Commands) | `C-x s` |
 | [Dired (aka view directory/folder)](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired-Enter.html#Dired-Enter) | `C-x d` |
 | [List all buffers](https://www.gnu.org/software/emacs/manual/html_node/emacs/List-Buffers.html#List-Buffers) | `C-x C-b` |
