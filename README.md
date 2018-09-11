@@ -84,7 +84,7 @@ character while TAB in python-mode aligns indentation of the statement.
 | [Up and down one line](https://www.gnu.org/software/emacs/manual/html_node/emacs/Moving-Point.html#Moving-Point) | `C-p` and `C-n` |
 | [Up and down one paragraph](https://www.gnu.org/software/emacs/manual/html_node/emacs/Moving-Point.html#Moving-Point) | `M-{` and `M-}` |
 | [Up and down a screenful of lines](https://www.gnu.org/software/emacs/manual/html_node/emacs/Moving-Point.html#Moving-Point) | `M-v` and `C-v` |
-| [Beginning and end of buffer](https://www.gnu.org/software/emacs/manual/html_node/emacs/Moving-Point.html#Moving-Point) | `M-&lt;` and `M-&gt;` |
+| [Beginning and end of buffer](https://www.gnu.org/software/emacs/manual/html_node/emacs/Moving-Point.html#Moving-Point) | `M-<` and `M->` |
 
 
 ## Selecting, deleting, and moving
