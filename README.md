@@ -47,9 +47,9 @@ character while TAB in python-mode aligns indentation of the statement.
 | Description | Command |
 | - | - |
 | [Emacs tutorial](https://www.gnu.org/software/emacs/manual/html_node/emacs/Help.html) | `C-h t` |
-| [Describe keyboard command](https://www.gnu.org/software/emacs/manual/html_node/emacs/Help.html) | `C-h k` *keyboard command* |
-| [Describe Emacs Lisp function](https://www.gnu.org/software/emacs/manual/html_node/emacs/Help.html) | `C-h f` *function name* |
-| [Describe Emacs Lisp variable](https://www.gnu.org/software/emacs/manual/html_node/emacs/Help.html) | `C-h v` *variable name* |
+| [Describe keyboard command](https://www.gnu.org/software/emacs/manual/html_node/emacs/Help.html) | `C-h k` *keyboardcommand* |
+| [Describe Emacs Lisp function](https://www.gnu.org/software/emacs/manual/html_node/emacs/Help.html) | `C-h f` *functionname* |
+| [Describe Emacs Lisp variable](https://www.gnu.org/software/emacs/manual/html_node/emacs/Help.html) | `C-h v` *variablename* |
 | [Search functions](https://www.gnu.org/software/emacs/manual/html_node/emacs/Help.html) | `C-h a` |
 | [Describe active modes](https://www.gnu.org/software/emacs/manual/html_node/emacs/Help.html) | `C-h m` |
 
@@ -148,9 +148,9 @@ character while TAB in python-mode aligns indentation of the statement.
 | [Start recording keystrokes](https://www.gnu.org/software/emacs/manual/html_node/emacs/Basic-Keyboard-Macro.html#Basic-Keyboard-Macro) | `F3` |
 | While recording, [stop recording keystrokes](https://www.gnu.org/software/emacs/manual/html_node/emacs/Basic-Keyboard-Macro.html#Basic-Keyboard-Macro) | `F4` |
 | When not recording, [replay the last-recorded keystrokes](https://www.gnu.org/software/emacs/manual/html_node/emacs/Basic-Keyboard-Macro.html#Basic-Keyboard-Macro) | `F4` |
-| Name the last-recorded keystrokes](https://www.gnu.org/software/emacs/manual/html_node/emacs/Save-Keyboard-Macro.html) | `C-x C-k n` *macroname* |
+| [Name the last-recorded keystrokes](https://www.gnu.org/software/emacs/manual/html_node/emacs/Save-Keyboard-Macro.html) | `C-x C-k n` *macroname* |
 | [Replay named keystrokes](https://www.gnu.org/software/emacs/manual/html_node/emacs/Save-Keyboard-Macro.html) | `M-x` *macroname* |
-| [Save named keystrokes](https://www.gnu.org/software/emacs/manual/html_node/emacs/Save-Keyboard-Macro.html) | Visit file to save the macro in, `M-x insert-kbd-macro` `RET` *macroname* `RET`, save the buffer |
+| [Save named keystrokes](https://www.gnu.org/software/emacs/manual/html_node/emacs/Save-Keyboard-Macro.html) | Visit file to save the macro in, `M-x insert-kbd-macro RET` *macroname* `RET`, save the buffer |
 
 
 ## Customizing and extending
