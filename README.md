@@ -123,7 +123,7 @@ character while TAB in python-mode aligns indentation of the statement.
 | [Search backward for *search text*](https://www.gnu.org/software/emacs/manual/html_node/emacs/Incremental-Search.html#Incremental-Search) | `C-r` *search-text* |
 | [Go to next occurrence of *search text*](https://www.gnu.org/software/emacs/manual/html_node/emacs/Incremental-Search.html#Incremental-Search) | `C-s` |
 | [Go to previous occurrence of *search text*](https://www.gnu.org/software/emacs/manual/html_node/emacs/Incremental-Search.html#Incremental-Search) | `C-r` |
-| [Search and replace](https://www.gnu.org/software/emacs/manual/html_node/emacs/Replace.html#Replace) | `M-%` *search text* `RET` *replace text* `RET` |
+| [Search and replace](https://www.gnu.org/software/emacs/manual/html_node/emacs/Replace.html#Replace) | `M-%` *search-text* `RET` *replace text* `RET` |
 
 ## Windows
 
@@ -144,16 +144,20 @@ character while TAB in python-mode aligns indentation of the statement.
 | Description | Command |
 | - | - |
 | [Repeat the last command](https://www.gnu.org/software/emacs/manual/html_node/emacs/Repeating.html#Repeating) | `C-x z` |
+| [Repeat a command *n* times](https://www.gnu.org/software/emacs/manual/html_node/emacs/Arguments.html#Arguments) | `C-u` *n* `C-u` *command* |
 | [Start recording keystrokes](https://www.gnu.org/software/emacs/manual/html_node/emacs/Basic-Keyboard-Macro.html#Basic-Keyboard-Macro) | `F3` |
 | While recording, [stop recording keystrokes](https://www.gnu.org/software/emacs/manual/html_node/emacs/Basic-Keyboard-Macro.html#Basic-Keyboard-Macro) | `F4` |
-| When not recording, [replay recorded keystrokes ](https://www.gnu.org/software/emacs/manual/html_node/emacs/Basic-Keyboard-Macro.html#Basic-Keyboard-Macro) | `F4` |
-| [Repeat a command *n* times](https://www.gnu.org/software/emacs/manual/html_node/emacs/Arguments.html#Arguments) | `C-u` *n* `C-u` *command* |
+| When not recording, [replay the last-recorded keystrokes](https://www.gnu.org/software/emacs/manual/html_node/emacs/Basic-Keyboard-Macro.html#Basic-Keyboard-Macro) | `F4` |
+| Name the last-recorded keystrokes](https://www.gnu.org/software/emacs/manual/html_node/emacs/Save-Keyboard-Macro.html) | `C-x C-k n` *macroname* |
+| [Replay named keystrokes](https://www.gnu.org/software/emacs/manual/html_node/emacs/Save-Keyboard-Macro.html) | `M-x` *macroname* |
+| [Save named keystrokes](https://www.gnu.org/software/emacs/manual/html_node/emacs/Save-Keyboard-Macro.html) | Visit file to save the macro in, `M-x insert-kbd-macro` `RET` *macroname* `RET`, save the buffer |
+
 
 ## Customizing and extending
 
 | Description | Command |
 | - | - |
-| [Execute a function](https://www.gnu.org/software/emacs/manual/html_node/emacs/M_002dx.html#M_002dx) | `M-x` *function name* `RET` |
+| [Execute a function](https://www.gnu.org/software/emacs/manual/html_node/emacs/M_002dx.html#M_002dx) | `M-x` *functionname* `RET` |
 | [View, install, and uninstall packages](https://www.gnu.org/software/emacs/manual/html_node/emacs/Packages.html#Packages) | `M-x list-packages` |
 | [Customize settings](https://www.gnu.org/software/emacs/manual/html_node/emacs/Easy-Customization.html#Easy-Customization) | `M-x customize` |
 
@@ -162,5 +166,5 @@ character while TAB in python-mode aligns indentation of the statement.
 
 | Description | Command |
 | - | - |
-| [Use butterflies to set a bit on your hard drive](https://xkcd.com/378) | `M-x butterfly RET` |
-| [Talk to a therapist](https://www.gnu.org/software/emacs/manual/html_node/emacs/Amusements.html#Amusements) | `M-x doctor RET` |
+| [Use butterflies to set a bit on your hard drive](https://xkcd.com/378) | `M-x butterfly` |
+| [Talk to a therapist](https://www.gnu.org/software/emacs/manual/html_node/emacs/Amusements.html#Amusements) | `M-x doctor` |
